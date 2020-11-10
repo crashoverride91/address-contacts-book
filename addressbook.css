@@ -1,12 +1,15 @@
-body {
-    margin:0px;
-    background-color: rgb(228, 119, 46);
+body{
+
+    background:rgb(248, 91, 43);
 }
 
 .container {
-    position:relative;
+    
     width:960px;
+    height: auto;
     margin:auto;
+    font-display: 90px;
+    
     
 }
 
@@ -30,11 +33,12 @@ body {
 }
 
 .quickadd {
-    padding:10px;
+   
     border-bottom:1px solid;
     align-items: center;
     text-align: center;
-    background-color:rgb(116, 187, 235); ;
+    background-color:rgb(116, 187, 235); 
+    width:100%;
     
 }
 
@@ -77,7 +81,7 @@ body {
 .quickaddForm input,textarea {
     border:1px solid;
     margin: 4px;
-    width:50%;
+    width:400px;
     padding:10px;
     font-weight:bold;
     border-radius:5px;
@@ -105,6 +109,12 @@ body {
 
 }
 
+.addbook{
+
+    width:100%;
+    
+}
+
 
 
 .entry {
@@ -119,7 +129,7 @@ body {
 
 
 .entry .name {
-    width:130px;
+    width:100px;
     float:left;
     padding:11px;
 }
@@ -128,6 +138,7 @@ body {
     width:200px;
     float:left;
     padding:11px;
+
 }
 
 
@@ -138,7 +149,7 @@ body {
 }
 
 .entry .address {
-    width:250px;
+    width:120px;
     float:left;
     padding:11px;
 }
@@ -150,7 +161,7 @@ body {
 }
 
 .entry .del {
-    width:30px;
+    width:20px;
     float:left;
     padding:9px;
 }
@@ -174,3 +185,22 @@ body {
    
 }
 
+
+@media screen and (max-width: 700px) {
+    .quickadd, .quickaddForm{
+      
+      width: 100%;
+      height:auto;
+      border-bottom:none;
+    }
+
+    .addbook{
+       
+        width:100%;
+    }
+
+    #QuickAdd{
+
+        border:none;
+    }
+  }
