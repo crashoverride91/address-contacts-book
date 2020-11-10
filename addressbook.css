@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-body{
 
-    background:rgb(248, 91, 43);
-}
-=======
-
->>>>>>> 8b7b3b039cb55bf563c048ca34697ca080f9ddad
 
 .container {
     
@@ -192,37 +185,23 @@ body{
 
 @media screen and (max-width: 700px) {
     .quickadd, .quickaddForm{
-<<<<<<< HEAD
+
       
       width: 100%;
-=======
-      display: flex;
-      width: 60%;
->>>>>>> 8b7b3b039cb55bf563c048ca34697ca080f9ddad
+
       height:auto;
       border-bottom:none;
     }
-
     .addbook{
-<<<<<<< HEAD
+
        
         width:100%;
-=======
-        display: flex;
-        width:60%;
->>>>>>> 8b7b3b039cb55bf563c048ca34697ca080f9ddad
+
     }
 
     #QuickAdd{
 
         border:none;
     }
-<<<<<<< HEAD
-=======
 
-    #Add, #Cancel{
-
-        text-align: center;
-    }
->>>>>>> 8b7b3b039cb55bf563c048ca34697ca080f9ddad
   }
