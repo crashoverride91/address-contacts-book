@@ -183,25 +183,3 @@
 }
 
 
-@media screen and (max-width: 700px) {
-    .quickadd, .quickaddForm{
-
-      
-      width: 100%;
-
-      height:auto;
-      border-bottom:none;
-    }
-    .addbook{
-
-       
-        width:100%;
-
-    }
-
-    #QuickAdd{
-
-        border:none;
-    }
-
-  }
